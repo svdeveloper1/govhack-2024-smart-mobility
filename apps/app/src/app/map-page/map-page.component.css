@@ -1,0 +1,27 @@
+mat-drawer-container {
+  height: 100%;
+
+  mat-drawer {
+    min-width: 200px;
+    max-width: 300px;
+    width: 20%;
+    padding: 0.5rem;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  mat-drawer-content {
+    position: relative;
+
+    > .drawer-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
