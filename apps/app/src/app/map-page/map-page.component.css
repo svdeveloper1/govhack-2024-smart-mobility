@@ -19,8 +19,10 @@ mat-drawer-container {
 
     > .drawer-button {
       position: absolute;
-      top: 0;
+      top: 10%;
       left: 0;
+      z-index: 999;
+      writing-mode: vertical-lr;
     }
   }
 }

@@ -6,7 +6,12 @@
     </div>
   </mat-drawer>
   <mat-drawer-content>
-    Main content
+    <div
+      style="height: 100%;"
+      leaflet
+      [leafletOptions]="options"
+    >
+    </div>
     @if (!drawer.opened) {
       <button class="drawer-button" (click)="drawer.toggle()">Toggle drawer</button>
     }
