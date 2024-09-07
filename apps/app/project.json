@@ -22,7 +22,9 @@
             "input": "apps/app/public"
           }
         ],
-        "styles": ["apps/app/src/styles.scss"],
+        "styles": [
+          "./node_modules/normalize.css",
+          "apps/app/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
